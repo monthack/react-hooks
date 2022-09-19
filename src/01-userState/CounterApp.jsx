@@ -8,7 +8,11 @@ export const CounterApp = () => {
   });
   const { counter1, counter2, counter3 } = state;
   return (
-    <>
+    <div
+      style={{
+        backgroundColor: '#918280',
+      }}
+    >
       <h1>Counter: {counter1}</h1>
       <h1>Counter: {counter2}</h1>
       <h1>Counter: {counter3}</h1>
@@ -26,6 +30,6 @@ export const CounterApp = () => {
       >
         + 1
       </button>
-    </>
+    </div>
   );
 };
